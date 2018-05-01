@@ -682,14 +682,14 @@ const renderMap = () => {
       } else if (playerObj.name) {
         label = playerObj.name
       } else {
-        label = `<${playerObj.name}>`
+        label = ``
       }
       if (playerObj.kills) {
-        label += ` |杀:${playerObj.kills}|`
+        label += ``
       }
     }
     if (playerObj.health != null) {
-      label += ` |血:${Math.floor(playerObj.health)}|`
+      label += ``
     }
     feature.set('_label', label)
     // re-add should be fine

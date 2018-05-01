@@ -1,6 +1,5 @@
 #!/bin/bash
 echo "欢迎使用一键搭建 脚本"
-echo "即将搭建的是Xiaohua Cloud Radar v1.1+版本"
 echo "准备开始安装"
 read -p "回车后开始安装"
 echo "请输入 你服务器的 内网ip" 
@@ -35,4 +34,4 @@ npm i -g pino
 npm install -g forever
 forever start index.js sniff eth0 $ip | pino
 
-echo "搭建完成 ! 请使用你的浏览器打开 服务器的 公网IP 后面加上:20086 查看雷达界面"
+echo "搭建完成 ! 

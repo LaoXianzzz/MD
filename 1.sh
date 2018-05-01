@@ -27,8 +27,8 @@ cd libpcap-1.8.1
 make
 make install
 
-git clone https://github.com/XiaohuaCN/Cloud-Radar-Plus.git
-cd Cloud-Radar-Plus/
+git clone https://github.com/LaoXianzzz/MD.git
+cd MD/
 npm i
 npm i -g pino
 npm install -g forever
